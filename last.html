@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Change to column layout */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282c34;
+            color: white;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            animation: pulse 1s infinite;
+            transition: text-shadow 0.3s ease;
+        }
+
+        h1:hover {
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(0, 255, 0, 0.7);
+            animation: none; /* Stop pulse effect on hover */
+        }
+
+        h4 {
+            margin-top: 20px; /* Add some space between h1 and h3 */
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #61dafb;
+            margin-top: 10px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        h4 {
+            font-size: 1.5em;
+            color: #ffffff;
+            margin-top: 20px;
+            font-style: italic;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday Papa</h1>
+    <h2>Claim gift from mumma</h2>
+    <h4>----------- With Love from Rudra And Punnu -----------</h4>
+
+</body>
+</html>
